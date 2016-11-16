@@ -1,0 +1,2 @@
+GET         /                        controllers.Application.index
+GET         /weixin              controllers.Application.get(signature: String, timestamp: String, nonce: String,echostr: String)
